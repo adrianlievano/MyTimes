@@ -74,9 +74,6 @@ li {
   padding-top: 0px;
 }
 
-.maincontainer img {
-}
-
 p.summary {
   padding: 10px 0px 10px 0px;
 }
@@ -104,23 +101,34 @@ h2 {
 .headline.one {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   background-size: 100% 100%;
+  display: flex; 
 }
 
 .headline.two {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-  background-repeat: repeat-x;
+  display: flex;
 }
 
 .headline.three {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-  background-repeat: repeat-x;
+  display: flex;
+
 }
 
 .headline.four {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   background-repeat: 100% 100%;
+  display: flex;
 }
 
 .headline p.statement {
   font-size: 40px;
+}
+
+.content.orca {
+  display: flex;
+}
+
+.content.burger {
+  display: flex;
 }
